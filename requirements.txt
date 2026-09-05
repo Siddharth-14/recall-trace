@@ -1,0 +1,4 @@
+streamlit==1.38.0
+pandas==2.2.2
+faker==26.0.0
+requests==2.32.3

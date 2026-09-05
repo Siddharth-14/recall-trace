@@ -1,0 +1,48 @@
+{
+  "recall_id": "MPS-2026-EGG-001",
+  "recalling_firm": "Midwest Poultry Services, L.P.",
+  "product_type": "Shell Eggs",
+  "brand_names": [
+    "Kroger",
+    "Simple Truth",
+    "Brookshire's",
+    "Country Morning",
+    "Sunups"
+  ],
+  "recall_classification": "Class I",
+  "recall_initiation_date": "2026-07-22",
+  "reason_for_recall": "Possible contamination with Salmonella Enteritidis (ciprofloxacin-resistant strain)",
+  "pathogen": "Salmonella Enteritidis (ciprofloxacin-resistant)",
+  "lot_codes": [
+    "P-1950",
+    "0840962"
+  ],
+  "julian_pack_date_range": {
+    "start_julian_day": 157,
+    "end_julian_day": 184,
+    "year": 2026,
+    "start_date": "2026-06-06",
+    "end_date": "2026-07-03"
+  },
+  "distribution_states": [
+    "TX",
+    "LA",
+    "OK",
+    "AR",
+    "NM",
+    "MS"
+  ],
+  "outbreak_stats": {
+    "illnesses": 98,
+    "hospitalizations": 26,
+    "states_affected": 17,
+    "fda_classification": "Class I"
+  },
+  "source": {
+    "title": "Midwest Poultry Services, L.P. Recalls Shell Eggs Due to Possible Salmonella Enteritidis Contamination",
+    "agency": "FDA",
+    "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+    "openfda_query": "recalling_firm:\"Midwest Poultry\""
+  },
+  "notes": "Recall facts above are real and sourced from the FDA recall notice cited in 'source'. All loyalty/transaction data used elsewhere in this demo is 100% synthetic and generated for demonstration purposes only. No real Kroger (or any retailer's) customer data is used anywhere in this application."
+}
