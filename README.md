@@ -4,9 +4,7 @@ A small, deployable demo of fast, auditable **lot-to-loyalty-account tracing**
 for a food recall — the kind of thing a grocery retailer's food-safety team
 needs the moment a recall notice lands: *who bought this, and how do we know?*
 
-**[Try the live demo →](#deployment)** (deploy instructions below — this repo
-is deploy-ready but the actual "connect to Streamlit Cloud" click needs to
-happen from your own account).
+**[Try the live demo →](https://recall-trace.streamlit.app/)**
 
 ## What it demonstrates
 
@@ -138,6 +136,8 @@ state matches an affected state — the match engine has to actually check
 
 ## Deployment
 
+**Live at [recall-trace.streamlit.app](https://recall-trace.streamlit.app/).**
+
 This app deploys to **[Streamlit Community Cloud](https://share.streamlit.io)**
 — free, no credit card required, deploys directly from a public GitHub repo.
 It's the standard choice for a demo at this scale: no infrastructure to
@@ -149,7 +149,7 @@ committed to the repo, **the deployed app works instantly for any visitor**
 — it never needs a live external API call to render something meaningful,
 even though `fetch_recall.py` still attempts the live openFDA call first.
 
-To deploy:
+To redeploy (or deploy your own fork):
 
 1. Push this repo to GitHub (if you're reading this, it likely already is).
 2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with
@@ -158,10 +158,6 @@ To deploy:
    entrypoint.
 4. Deploy. That's it — no secrets, no config beyond what's already in
    `.streamlit/config.toml`.
-
-(This last step needs a Streamlit Cloud account, so it's a manual click for
-whoever owns this repo — it isn't something that can be automated from
-inside the codebase.)
 
 ## Limitations, by design
 
